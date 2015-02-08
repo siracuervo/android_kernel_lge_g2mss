@@ -11,7 +11,7 @@
  */
 
 /include/ "../msm8226-lge-common/msm8226-v2-lge.dtsi"
-/include/ "msm8226-g2mss_global_com/msm8226-g2mss.dtsi"
+/include/ "msm8226-g2mss.dtsi"
 
 / {
 model = "Qualcomm MSM 8226v2 g2mssglobalcom";
