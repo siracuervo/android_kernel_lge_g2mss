@@ -18,7 +18,7 @@
 	qcom,pm8226@1 {
 		qcom,vibrator@c000 {
 		               	compatible = "qcom,qpnp-vibrator";
-                        status = "okay";
+                        status = "disabled";
                         qcom,vib-timeout-ms = <15000>;
                         qcom,vib-vtg-level-mV = <3100>;
                 };
