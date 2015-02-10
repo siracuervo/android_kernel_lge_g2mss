@@ -13,7 +13,7 @@
 &soc {
 	syncoam_sm100 {
 		compatible = "syncoam,sm100";
-		status = "disable";
+		status = "okay";
 		vdd_ana-supply = <&pm8226_l19>;
 		syncoam,vpwr-on = <0>;
 		syncoam,haptic-pwr-gpio = <&msmgpio 112 0x00>;
@@ -24,7 +24,7 @@
 
 	earjack-debugger {
 		compatible = "serial,earjack-debugger";
-		status = "disable";
+		status = "okay";
 		interrupt-parent = <&pm8226_gpios>;
 		interrupts = <1 0>;
 		serial,irq-gpio = <&pm8226_gpios 2 0x0>;
@@ -35,7 +35,7 @@
         interrupt-parent = <&msmgpio>;
         interrupts = <4 0x0>;
         hallic-pouch-irq-gpio = <&msmgpio 4 0x00>;
-        status = "disable";
+        status = "okay";
     };
 
     hall-bu52033nvx-carkit {
@@ -43,7 +43,7 @@
         interrupt-parent = <&msmgpio>;
         interrupts = <5 0x0>;
         hallic-carkit-irq-gpio = <&msmgpio 5 0x00>;
-        status = "disable";
+        status = "okay";
     };
 
     hall-s5717 {
@@ -51,7 +51,7 @@
         interrupt-parent = <&msmgpio>;
         interrupts = <4 0x0>;
         hallic-pouch-irq-gpio = <&msmgpio 4 0x00>;
-        status = "disable";
+        status = "okay";
     };
 
     i2c@f9925000 {
